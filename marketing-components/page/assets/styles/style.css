@@ -1,0 +1,285 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+
+header > img {
+    width: 84px;
+    height: 36px;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+nav > .dropdown {
+    display: flex;
+    gap: 4px;
+}
+
+nav > .dropdown > img {
+    width: 24px;
+    height: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons > button {
+    padding: 8px 20px;
+    border: 1px solid #000000;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.secundary {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    padding-inline: 64px;
+    background-image: url("../images/main-background.png");
+    background-size: cover;
+}
+
+main > .content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main > .content > h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main > .content > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main > .btns {
+    display: flex;
+    gap: 16px;
+}
+
+main > .btns > button {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+
+    padding: 12px 24px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+main > .btns > button.primary {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+section.contact {
+    width: 100vw;
+    padding: 112px 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+section.contact > .section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.contact > .section-title > p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+section.contact > .section-title > .content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+section.contact > .section-title > .content > h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+section.contact > .section-title > .content > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+section.contact > form {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+section.contact > form > .Input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section.contact > form > .Input > label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+section.contact > form > .Input > input {
+    padding: 12px;
+    border: 1px solid #000000;
+}
+
+section.contact > form > .Input > textarea {
+    padding: 12px;
+    border: 1px solid #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    min-height: 180px;
+}
+
+section.contact > form > .Checkbox > input {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+}
+
+section.contact > form > .Checkbox > label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+section.contact > form > .Checkbox > label > a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: underline;
+}
+
+section.contact > form > button {
+    padding: 12px 24px;
+    width: 99px;
+
+    background-color: #000000;
+    border: 1px solid #000000;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 64px;
+}
+
+footer > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+footer > .content > img {
+    width: 84px;
+    height: 36px;
+}
+
+footer > .content > nav {
+    display: flex;
+    gap: 32px;
+}
+
+footer > .content > nav > a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+footer > .credits {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+footer > .credits > .divider {
+    border-top: 1px solid #000000;
+}
+
+footer > .credits > .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > .credits > .row p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+footer > .credits > .row a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: underline;
+}
